@@ -13,17 +13,11 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-dark" style="background-color: #DB1515;">
-        <a class="navbar-brand" href="#">Vthryl</a>
-          <form class="form-inline">
-            <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
-            <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
-            <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
-          </form>
-      </nav>
+      <%= render 'layouts/navigation' %>
     </header>
     <main role="main">
       <%= content_for?(:content) ? yield(:content) : yield %>
-    </main>
+      <h1> hi </h1>
+      </main>
   </body>
 </html>
