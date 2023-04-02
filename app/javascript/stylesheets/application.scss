@@ -12,13 +12,17 @@ $purple: #8D1CB2;
         background: $purple;
 }
 body {
-        background: $grey;
+        background: $black;
         color: $black;
         font-family: 'Merriweather', sans-serif;
 }
 h1,
 h2 {
         font-weight: bold;
+        color: $white;
+}
+h3 {
+        color: $white;
 }
 p {
         font-size: 16px;
@@ -28,7 +32,7 @@ a:visited {
         color: $black;
 }
 .jumbotron {
-        background: #0048CD;
+        background: $grey;
         color: $white;
         text-align: center;
         p {
@@ -40,7 +44,8 @@ a:visited {
         color: $white;
 }
 .btn-primary {
-        color: $red;
+        color: $purple;
+        background-color: $white;
         border-color: $white;
         margin-bottom: 5px;
 }
