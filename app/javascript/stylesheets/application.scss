@@ -13,7 +13,7 @@ $purple: #8D1CB2;
 }
 body {
         background: $black;
-        color: $black;
+        color: $purple;
         font-family: 'Merriweather', sans-serif;
 }
 h1,
@@ -26,10 +26,10 @@ h3 {
 }
 p {
         font-size: 16px;
-        color: $white;
+        color: $white
 }
 a:visited {
-        color: $black;
+        color: $white;
 }
 .jumbotron {
         background: $grey;
@@ -46,11 +46,11 @@ a:visited {
 .btn-primary {
         color: $purple;
         background-color: $white;
-        border-color: $white;
+        border-color: $black;
         margin-bottom: 5px;
 }
 .btn-sm {
-        background-color: $white;
+        background-color: $grey;
         display: inline-block;
 }
 img,
@@ -60,8 +60,8 @@ audio {
         max-width: 80%;
 }
 caption {
-
+        color:$white;
         float: left;
         clear: both;
-
+        
 }
